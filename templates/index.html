@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <title>Reto_Python</title>
+</head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <h1 class="navbar-brand ">Python_Reto</h1>
+    </nav>
+    <main role="main">
+      <div style="padding-top: 10px;">
+        <div class="container">
+          <div class="row">
+            <div class="col align-self-start">
+              <h6>tiempo total: </h6>
+              {{tiempos['tiempo_total']}} ms
+            </div>
+            <div class="col align-self-center">
+              <h6>tiempo promedio: </h6>
+              {{tiempos['tiempo_promedio']}} ms
+            </div>
+            <div class="col align-self-end">
+              <h6>tiempo minim: </h6>
+              {{tiempos['tiempo_minimo']}} ms
+            </div>
+            <div class="col align-self-end">
+              <h6>tiempo maximo: </h6>
+              {{tiempos['tiempo_maximo']}} ms
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
